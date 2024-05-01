@@ -40,3 +40,8 @@ ScrollReveal().reveal('.about__card', {
   duration: 1000,
   interval: 500,
 });
+
+ScrollReveal().reveal('.trainer__card', {
+  ...scrollRevealOption,
+  interval: 500,
+});
