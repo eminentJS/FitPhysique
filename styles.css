@@ -498,6 +498,27 @@ nav {
   transition: 0.3s;
 }
 
+.blog__card:hover h4 {
+  color: var(--primary-color);
+}
+
+.blog__btn {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.logo__banner {
+  padding-inline: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.logo__banner img {
+  max-width: 150px;
+  margin-inline: auto;
+}
+
 @media (width > 540px) {
   .about__grid {
     grid-template-columns: repeat(2, 1fr);
@@ -512,6 +533,10 @@ nav {
   }
 
   .membership__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog__grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -594,6 +619,14 @@ nav {
 
   .membership__grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .blog__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .logo__banner {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
